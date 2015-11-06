@@ -6,7 +6,7 @@ This is a Cordova 5 app that demonstrates the steps needed to successfully make 
 
 For iOS 9 / Xcode 7 users this also demonstrates the configuration of App Transport Security (ATS) which by default will block non SSL requests to backend servers.
 
-A blog post explaining these issues and how to address them can be found [on the Modus Create blog](http://moduscreate.com/cordova-5-ios-9-security-policy-changes/)
+A blog post explaining these issues and how to address them can be found [on the Modus Create blog](http://moduscreate.com/cordova-5-ios-9-security-policy-changes/).
 
 The app is very simple, it calls out to an exchange rate API (```http://api.fixer.io```) and aims to tell us the current value of the Euro in US Dollars.  It uses JQuery, but nothing about the Content Security Policy or ATS setup is framework specific - configurations apply to any JS framework.
 
